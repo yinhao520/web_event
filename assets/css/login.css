@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.display {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 310px;
+    background: #fff;
+}
+
+.display-img {
+    width: 400px;
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+.login {
+    padding: 0 30px;
+}
+
+.login div {
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.login a {
+    float: right;
+}
+
+.login input {
+    width: 100%;
+    height: 38px;
+    border: none;
+}
+
+.login .layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.login .denglu {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 15px;
+    border: none;
+    color: #fff;
+    background-color: #1E9FFF;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 4px;
+}
+
+.reg {
+    display: none;
+}
